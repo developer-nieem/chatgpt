@@ -8,12 +8,12 @@ function App() {
   
 
   return (
-    <>
+    <div className="flex w-full">
       
       {/* sidebar */}
-      <div>
+      <div className=" w-[30%] text-white bg-black border border-r-2">
           {/* sidebar top */}
-              <div>
+              <div className="">
                 <img src="" alt="" />
                 <button> + Add new Chat</button>
 
@@ -22,20 +22,22 @@ function App() {
                   <button>What is css</button>
                 </div>
               </div>
+
           {/* sidebar bottom */}
           <div>
 
+              <button> Upgrade to Pro</button>
           </div>
       </div>
 
       {/* Main content */}
-      <div>
+      <div className=" w-[70%] ">
         <div>
-
+sfsdg
         </div>
       </div>
 
-    </>
+    </div>
   );
 }
 
